@@ -1,0 +1,2 @@
+full_name, favourite_colour, company_name, email, phone_number, salary
+Diana Harris, Red, Sutherland, dark_kn, 0886969, 6000
