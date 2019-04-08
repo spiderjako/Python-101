@@ -11,6 +11,7 @@ class Jsonable():
     def from_json(self, json_string):
         return json.loads(json_string)
 
+
 class Xmlable():
     data = {'type' : None, 'dict':None}
     

@@ -1,0 +1,14 @@
+get_string was called and took 0.00029423499972836 seconds to complete 
+something was called and took -0.0016579429998273554 seconds to complete 
+get_string was called at 2019-04-05 10:39:14.119128
+get_string was called and took 4.3680000089807436e-05 seconds to complete 
+something was called and took 3.774899960262701e-05 seconds to complete 
+get_string was called at 2019-04-05 10:40:19.604478
+get_string was called and took get_string was called and took 3.933000016331789e-05 seconds to complete 
+something was called and took 3.4826000046450645e-05 seconds to complete 
+get_string was called at 2019-04-05 10:41:25.136847
+get_string was called and took -0.035459948000000005 seconds to complete 
+something was called and took -0.035650011999999995 seconds to complete 
+get_string was called at 2019-04-05 10:42:26.447792
+get_string was called and took get_string was called and took something was called and took get_string was called at 2019-04-05 10:44:41.773436
+get_string was called and took get_string was called and took get_string was called and took 
