@@ -158,19 +158,23 @@ def word_counter(word,rows,cols, table):
                 count+=1
                 proto_word=''
             i+=1
-m = [[1,2,3],[4,5,6],[7,8,9]]
-num = 1000
-list1= [1,2,3,3,3,3,4,5,5,5,5,5]
-print(sum_of_digits(num))
-print(to_digits(num))
-print(to_number(list1))
-print(fact_digits(3))
-print(fact_digits(999))
-print(palindrome(123))
-print(count_consonants('Github is the second best thing that happend to programmers, after the keyboard!'))
-print(char_histogram('Python'))
-print(sum_matrix(m))
-print(nan_expand(2))
-print(char_2('baba'))
-prime_factorization(num)
-print(max_consecutive(list1))
+
+def main():
+    m = [[1,2,3],[4,5,6],[7,8,9]]
+    num = 1000
+    list1= [1,2,3,3,3,3,4,5,5,5,5,5]
+    print(sum_of_digits(num))
+    print(to_digits(num))
+    print(to_number(list1))
+    print(fact_digits(3))
+    print(fact_digits(999))
+    print(palindrome(123))
+    print(count_consonants('Github is the second best thing that happend to programmers, after the keyboard!'))
+    print(char_histogram('Python'))
+    print(sum_matrix(m))
+    print(nan_expand(2))
+    print(char_2('baba'))
+    prime_factorization(num)
+    print(max_consecutive(list1))
+if __name__ == "__main__":
+    main()

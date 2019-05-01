@@ -1,10 +1,6 @@
 def deep_find(data, key, list_of_parents =[]):
-    for vertex in data:
-        if key == vertex:
-            return data[vertex]
-        if isinstance(data[vertex], dict):
-            list_of_parents+=vertex
-            return deep_find(data[vertex], key)
+    path += [curr_vert]
+
 def deep_find_BFS(data, key, list_vertices=[]):
      for vertex in data:
         if key == vertex:
