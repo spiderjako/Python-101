@@ -83,15 +83,15 @@ def sum_matrix(matrix):
         sumMatrix+=sum(x)
     return sumMatrix
 
-def nan_expand(n):
-    nany = ''
-    if n == 0:
-        return nany
-    while n>0:
-        nany+='Not a '
-        n-=1
-    nany+='NaN'
-    return nany
+# def nan_expand(n):
+#     nany = ''
+#     if n == 0:
+#         return nany
+#     while n>0:
+#         nany+='Not a '
+#         n-=1
+#     nany+='NaN'
+#     return nany
 
 def nan_expand(n):
     nany = ''
@@ -113,17 +113,17 @@ def char_2(string):
 
 def prime_factorization(n):
     i=2
-    print("{", end='')
+    list_of_factors = []
     while i<=n:
         count=0
         while n%i==0:
             n = n//i
             count+=1
         if count!=0:
-            print("(" + str(i) + ", " + str(count) + ") ", end='')
+            tuply = (i,count)
+            list_of_factors.append(tuply)
         i+=1
-    print("}")
-    return
+    return list_of_factors
 
 def max_consecutive(items):
     i=0
@@ -174,7 +174,7 @@ def main():
     print(sum_matrix(m))
     print(nan_expand(2))
     print(char_2('baba'))
-    prime_factorization(num)
+    print(prime_factorization(num))
     print(max_consecutive(list1))
 if __name__ == "__main__":
     main()
