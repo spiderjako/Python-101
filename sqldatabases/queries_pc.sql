@@ -22,7 +22,13 @@ SELECT AVG(PRICE)
 FROM pc LEFT JOIN product ON pc.MODEL == product.MODEL
 WHERE MAKER == 'A';
 
-
+SELECT MAKER,AVG(pc.PRICE)
+FROM pc INNER JOIN product ON pc.MODEL == product.MODEL
+WHERE MAKER == 'B'
+UNION
+SELECT MAKER,AVG(laptop.PRICE)
+FROM laptop INNER JOIN product ON laptop.MODEL == product.MODEL
+WHERE MAKER == 'B';
 
 SELECT MAKER
 FROM pc INNER JOIN product ON pc.MODEL == product.MODEL
