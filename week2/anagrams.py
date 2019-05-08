@@ -4,5 +4,9 @@ def anagrams(first, second):
     else:
         return False
 
-print(anagrams('kliata', 'kilata'))
+def main():
+    pass
+
+if __name__ == '__main__':
+    main()
 

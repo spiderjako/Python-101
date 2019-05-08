@@ -121,9 +121,9 @@ def numbers_to_message(pressed_sequence):
 
     return phrase
 
-stats = [70,90,140,210,240,280,350]
-print(gas_stations(390,80, stats))
-print(is_number_balanced(1238033))
-print(increasing_or_decreasing([1,1,1,1]))
-print(sum_of_numbers('ab12'))
-print(numbers_to_message([2, -1, 2, 2, -1, 2, 2, 2]))
+# stats = [70,90,140,210,240,280,350]
+# print(gas_stations(390,80, stats))
+# print(is_number_balanced(1238033))
+# print(increasing_or_decreasing([1,1,1,1]))
+# print(sum_of_numbers('ab12'))
+# print(numbers_to_message([2, -1, 2, 2, -1, 2, 2, 2]))
